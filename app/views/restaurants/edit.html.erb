@@ -1,0 +1,13 @@
+edit restaurant
+
+<%= form_for @restaurant do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+
+    <%= f.collection_check_boxes(:pizza_ids, @pizzas, :id, :name)  %>
+
+    <%= f.submit %>
+<% end %>

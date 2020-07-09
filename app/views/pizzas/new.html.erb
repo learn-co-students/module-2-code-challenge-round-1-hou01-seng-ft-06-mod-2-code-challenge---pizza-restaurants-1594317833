@@ -1,0 +1,17 @@
+Create a pizza
+<% @pizza.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+
+<%= form_for @pizza do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    
+    <%= f.label :ingredients %>
+    <%= f.text_field :ingredients %>
+
+    <%= f.label :restaurant %>
+    <%= f.collection_select :restaurant_ids, @restaurants, :id, :name  %>
+
+    <%= f.submit %>
+<% end %>
