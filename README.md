@@ -13,23 +13,23 @@ In this repo, there is a Rails application with some features built out. Your jo
 - ActiveRecord
 - Validations
 
-## Setup
+<!-- ## Setup
 
-Before you begin coding your solution, clone this repo and then `cd` into it. Then run `bundle install`, `rails db:migrate`, and `rails db:seed` to install dependencies and set up the database, and run `rails s` to start the server.
+Before you begin coding your solution, clone this repo and then `cd` into it. Then run `bundle install`, `rails db:migrate`, and `rails db:seed` to install dependencies and set up the database, and run `rails s` to start the server. -->
 
-## Domain
+<!-- ## Domain
 
 There are three models in the domain: Restaurant, Pizza, and a join model RestaurantPizza.
 
-Each Restaurant can have many Pizzas. Each Pizza can belong to multiple Restaurants.
-
+Each Restaurant can have many Pizzas. Each Pizza can belong to multiple Restaurants. -->
+<!-- 
 ## What You Already Have
 
 The starter code has migrations, models, and seed data for the initial Pizza and Restaurant models. There are routes, controllers and views to support listing Restaurants and Pizzas.
 
-Once you have followed the setup instructions above, visiting the `/restaurants` route will display all of the Restaurants. Similarly, visiting `/pizzas` will list all the pizzas.
+Once you have followed the setup instructions above, visiting the `/restaurants` route will display all of the Restaurants. Similarly, visiting `/pizzas` will list all the pizzas. -->
 
-***Schema***
+<!-- ***Schema***
 
 Restaurant
 
@@ -45,11 +45,11 @@ Pizza
 | name  | String  |
 | ingredients | String  |
 | created_at  | DateTime  |
-| updated_at  | DateTime  |
+| updated_at  | DateTime  | -->
 
-## Instructions
+<!-- ## Instructions
 
-Update the code of the application to meet the following deliverables. Follow RESTful naming conventions and the MVC pattern to divide responsibility.
+Update the code of the application to meet the following deliverables. Follow RESTful naming conventions and the MVC pattern to divide responsibility. -->
 
 ***Read through these deliverables carefully to understand the requirements for this code challenge. Tackle them one by one, as they build on each other sequentially.***
 
